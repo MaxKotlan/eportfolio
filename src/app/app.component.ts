@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'eportfolio';
+  title = '';
+  links : Array<any> = [
+    {name: "about", route: "/"},
+    {name: "project", route: "/projects"}
+  ];
 }
